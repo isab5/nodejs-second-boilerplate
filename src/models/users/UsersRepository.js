@@ -34,6 +34,8 @@ class UserRepository {
         user.name = name;
         user.email = email;
         user.password = password;
+
+        return user;
     }
 }
 
